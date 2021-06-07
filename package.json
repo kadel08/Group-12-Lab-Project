@@ -4,7 +4,9 @@
   "description": "",
   "main": "hello.js",
   "scripts": {
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls" 
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcv | coveralls"
   },
   "jest": {
     "collectCoverage": true,
