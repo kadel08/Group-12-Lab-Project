@@ -1,12 +1,15 @@
 language: node_js 
 node_js:
   - "v14.16.0"
+install:
+  - npm install
+ 
 script:
   - npm run test -- --coverage
- 
+
 after_script:
   - COVERALLS_REPO_TOKEN=$coveralls_repo_token npm run coveralls
-  
+
 deploy:
   provider: azure_web_apps
   on: 
