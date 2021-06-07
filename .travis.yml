@@ -9,8 +9,3 @@ script:
 
 after_script:
   - COVERALLS_REPO_TOKEN=$coveralls_repo_token npm run coveralls
-
-deploy:
-  provider: azure_web_apps
-  on: 
-    branch: main
