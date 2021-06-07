@@ -1,5 +1,5 @@
-function calculateSum (A, B) {
+function calculateSum2 (A, B) {
   return A + B
 }
 
-module.exports = calculateSum
+module.exports = calculateSum2
