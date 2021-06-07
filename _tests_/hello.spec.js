@@ -7,6 +7,7 @@ describe('Summation Test', () => {
     const output = A + B
     expect(calculateSum2(A, B)).toEqual(output)
   })
+  
   test('return sum numbers', () => {
     const A = 52
     const B = 41
