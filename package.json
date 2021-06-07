@@ -5,7 +5,7 @@
   "main": "hello.js",
   "scripts": {
     "test": "jest",
-    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "jest": {
     "collectCoverage": true,
